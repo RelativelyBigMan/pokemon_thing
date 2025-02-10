@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specific Pokemon</title>
+</head>
+<body>
+    <header class="header-home">
+        <img src="./assets/chevron_left.svg" alt="leftArrow" onclick="changePokemon('left')">
+        <div class="pokemonImage" id="pokemonImage"></div>
+        <img src="./assets/chevron_right.svg" alt="rightArrow" onclick="changePokemon('right')">
+    </header>
+    <div class="type">
+        Poison
+    </div>
+    <div class="statsWrapper">
+        <div class="weight" id="weight">
+            <img src="./assets/weight.svg" alt="weight">
+        </div>
+        <div id="height" class="height">
+        <img src="./assets/height.svg" alt="height">
+        </div>
+        <div id="SATK" class="SATK">
+            Special Ability
+        </div>
+    </div>
+    <p id="infoPokemon">
+        These Pokemon crazy lowkey
+    </p>
+    <h2>Base Stats</h2>
+    <div class="progressWrapper">
+        <div class="HP">
+            HP
+            <progress id="HP" max="100"></progress>
+        </div>
+        <div class="ATK">
+            ATK
+            <progress id="ATK" max="100"></progress>
+        </div>
+        <div class="DEF">
+            DEF
+            <progress id="DEF" max="100"></progress>
+        </div>
+        <div class="SATK">
+            SATK
+            <progress id="SATKi" max="100"></progress>
+        </div>
+        <div class="SDEF">
+            SDEF
+            <progress id="SDEF" max="100"></progress>
+        </div>
+        <div class="SFD">
+            SFD
+            <progress id="SFD" max="100"></progress>
+        </div>
+    </div>
+    <script src="Particular.js" defer></script>
+</body>
+</html>
